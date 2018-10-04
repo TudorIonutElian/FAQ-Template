@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #000;
+}
+
+#container {
+    width: 960px;
+    height: 800px;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* ---- Header CSS Code*/
+#container .container-header {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #A9C056;
+}
+
+/* ---- Content CSS Code*/
+#container .container-content {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F4;
+    padding-right: 2%;
+}
+
+#container .container-content .container-content__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 25%;
+    
+}
+#container .container-content .container-content__menu ul {
+    margin-right: 10%;
+    margin-top: 10%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container .container-content .container-content__menu ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    height: 40px;
+    background-color: #4F545A;
+
+}
+#container .container-content .container-content__menu ul li.active,
+#container .container-content .container-content__menu ul li:hover {
+    background-color: #3d4044;
+}
+#container .container-content .container-content__menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+#container .container-content .container-content__links {
+    width: 75%;
+}
+#container .container-content .container-content__links h6 {
+    margin-top: 3%;
+    font-size: 14px;
+}
+#container .container-content .container-content__links .question {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px 20px;
+    
+}
+#container .container-content .container-content__links .question .question-title {
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    font-size: 12px;
+}
+.question-title img {
+    width: 30px;
+    margin-top: 4px;
+}
+#container .container-content .container-content__links .question .question-body{
+    padding-left: 5%;
+    padding-right: 10%;
+    text-align: justify;
+}
