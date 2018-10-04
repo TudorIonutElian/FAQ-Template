@@ -94,6 +94,9 @@ body {
     justify-content: space-between;
     padding-left: 5%;
     font-size: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd;
+    border-bottom-width: 1px;
 }
 .question-title img {
     width: 30px;
